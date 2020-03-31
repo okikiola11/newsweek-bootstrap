@@ -1,0 +1,95 @@
+.container-fluid {
+    margin: 0; 
+    padding: 0;
+}
+.h-container {
+    justify-content: space-between;
+}
+.brand svg {
+    fill: #ffffff;
+}
+.bg-nav {
+    background-color: #f72210;
+    color: #ffffff;
+    padding: 5px !important;
+} 
+/* .nav-first span {
+    font-size: .9rem;
+}
+.nav-center {
+    font-size: 1.6rem;
+    font-family: 'Roboto Slab', serif;
+    flex-basis: 35%;
+    border: 1px solid #000000;
+}
+
+.nav-logo {
+    font-size: 1.6rem;
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 4px;
+    padding-right: 5px;
+    flex-basis: 65%;
+    border: 1px solid #000000;
+    justify-content: flex-end;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-right span {
+    padding-left: 10px;
+    font-size: 1rem;
+}
+.nav-right span img {
+    padding-top: 3px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.signin-bx {
+    margin-top: 7px;
+}
+.subscribe-btn {
+    margin-top: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #f72210;
+    font-weight: 700;
+} */
+
+.navbar-nav {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 19px;
+}
+.bdr {
+    border-right: 1px solid #000000;
+    width: 5px;
+}
+/*===================================== 
+Small devices (landscape phones, 576px and up) 
+=======================================*/
+@media (min-width: 576px) {
+    
+    
+}
+
+/*===================================== 
+Medium devices (tablets, 768px and up) 
+=======================================*/
+@media (min-width: 768px) {
+    
+}
+
+/*====================================== 
+Large devices (desktops, 992px and up) 
+========================================*/
+@media (min-width: 992px) {
+    
+}
+
+/*=======================================
+Extra large devices (large desktops, 1200px and up) 
+=========================================*/
+@media (min-width: 1200px) {
+    
+}
