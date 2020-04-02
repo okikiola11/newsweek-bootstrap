@@ -128,8 +128,21 @@
 .bdr-top {
     border-top: 3px solid;
 }
-
-
+.img-magazine {
+    width: 100%;
+    transition: opacity 500ms ease-in-out 100ms;
+}
+.txt-magazine {
+    color: #f72210;
+    margin: 10px 0;
+    font: bold 16px/21px "Roboto Condensed",sans-serif;
+}
+.txt-magazine strong {
+    background-color: #f72210;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 3px 5px;
+}
 /*===================================== 
 Small devices (landscape phones, 576px and up) 
 =======================================*/
