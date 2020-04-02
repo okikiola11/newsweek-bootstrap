@@ -1,4 +1,4 @@
-.brand svg {
+.hdr-top-logo {
     fill: #ffffff;
 }
 .bg-nav {
@@ -147,6 +147,24 @@
     text-transform: uppercase;
     color: #ffffff;
     padding: 3px 5px;
+}
+.logo-col {
+    fill: #f72210;
+} 
+.footer-link {
+    margin: 0; 
+    padding: 0 5px;
+    font: 15px "Roboto Condensed",sans-serif;
+}
+.footer-links {
+    margin: 0; 
+    padding: 0 10px;
+    color: #333333 !important;
+    font: 15px "Roboto Condensed",sans-serif;
+}
+.nav-item span, 
+.footer-links:hover {
+    color: #000000 !important;
 }
 /*===================================== 
 Small devices (landscape phones, 576px and up) 
