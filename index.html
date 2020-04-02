@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="asset/style.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-nav mr-2 ml-2 "  style="margin: 0; padding: 0;">
-            <div class="container-fluid" style="border: 1px solid #000000;">
-                <div class="d-inline-flex w-100 pr-2 pl-2" style="border: 1px solid #000000;">
-                    <div>
-                        <div class="navbar-toggler border-0" data-toggle="collapse"> 
+        <!-- mr-2 ml-2 -->
+        <nav class="navbar navbar-expand-sm navbar-light d-flex justify-content-between bg-nav ">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-between w-100 pr-2 pl-2">
+                    <div class="d-flex align-items-center">
+                        <div> 
                             <a class="brand" href="https://www.newsweek.com">
-                                <svg 
+                                <svg class="d-lg-none"
                                 version="1.1" 
                                 id="Layer_1" 
                                 xmlns="http://www.w3.org/2000/svg" 
@@ -30,23 +32,23 @@
                             </a>
                         </div>
 
-                        <div style="width: 350px;">
+                        <div class="d-none d-sm-block ml-1">
                             <div>
                                 <img src="asset/images/cloud-icon.PNG" alt="Cloud Icon"> 
                                 <strong>34<sup>o</sup> Kachia, NG >
                                 </strong>
                             </div>
-                            <div class="collapse navbar-collapse">Sun, Mar 29, 2020 </div>
+                            <div class="d-sm-none d-md-none d-lg-block mt-1">Sun, Mar 29, 2020 </div>
                         </div>
                     </div>
-    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+                    
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent"> 
                         <a class="brand" href="https://www.newsweek.com">
-                            <svg 
+                            <svg class="d-sm-none d-lg-block"
                             version="1.1" 
                             id="Layer_1" 
                             xmlns="http://www.w3.org/2000/svg" 
-                            xmlns:xlink="http://www.w3.org/1999/xlink"  width="250" height="80" 
+                            xmlns:xlink="http://www.w3.org/1999/xlink"  width="400" height="80" 
                             x="0px" y="0px" viewBox="0 0 395.6 60" 
                             style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
                             <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
@@ -54,102 +56,625 @@
                         </a>
                     </div>
     
-                    <div class="mr-auto" style="border: 1px solid #000000; width: 200px;"> 
-                        <span class="signin-bx"><strong> SIGN IN </strong></span>
-                        <span><button type="submit" class="subscribe-btn">SUBSCRIBE &nbsp; > </button> 
-                            <img src="asset/images/search-icon.PNG" alt="Search Icon">
-                        </span>
+                    <div class="d-flex align-items-end mb-2"> 
+                        <span class="signin-bx mr-3"><strong> SIGN IN </strong></span>
+                        
+                        <button type="submit" class="subscribe-btn">SUBSCRIBE &nbsp; <i class="fas fa-angle-right"></i> </button> 
+                        <img class="d-lg-none" src="asset/images/search-icon.PNG" alt="Search Icon">                    
                     </div>
                 </div>
             </div>
         </nav>
+        <div class="header-bottom float-lg-right "></div>
         
-        <nav class="container-fluid navbar navbar-expand-lg pr-2 pl-2" style="border: 1px solid #000000;">
-            <div class="collapse navbar-collapse" style="border: 1px solid #000000;">
-                <ul class="navbar-nav">
+        <nav class="navbar navbar-expand-lg mt-2"><!-- mr-2 ml-2 -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav nav-fill flex-nowrap d-none d-md-none d-lg-flex w-100">
                     <li class="nav-item border-right">
                         <a class="nav-link active" href="#">U.S.</a>
                     </li>
-                    <div class="bdr"></div>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href="#">World</a>
                     </li>
-                    <div class="bdr"></div>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href=""> Business </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href="#">Tech & Science</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href=""> Culture </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href="#"> Newsgeek </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href=""> Sports </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href="#"> Health </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href=""> The Debate </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href="#">Vantage</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item border-right">
                         <a class="nav-link" href=""> Weather </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tech & Science</a>
                     </li>
+                    <li class="mt-2">
+                        <span class="search">Search</span> <i class="fa fa-search" aria-hidden="true"></i>
+                    </li>
                 </ul>
-            </div>
-            
+            </div>    
         </nav>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+        <div class="hdr-bottom w-100"></div>
     </header>
 
-    <main>
-        <section style="border: 1px solid #000000;">
-            hello
+    <main class="bg-color mr-2 ml-2 pt-3">
+        <section class="container-fluid">   
+            <div class="row no-gutters"> 
+               
+                <div class="col-lg-8 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-12 order-sm-1 order-md-2 ">
+                            <h5 class="hdr-txt"> Top Stories </h5>
+                            <div class="card-box mb-4">
+                                <img src="asset/images/img2.webp" alt="Image Cards" class="img-card" width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">New York City Coronavirus Death Toll Surpasses 1,000</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        The city's death roll was reported at 914 on Monday night and 776 on Sunday.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-none d-lg-block d-md-block">
+                                <h5 class="hdr-txt"> Culture & Travel </h5>
+                                <article class="d-flex w-100 justify-content-between">
+                                    <div class="culture-img">
+                                        <p>
+                                            <img src="asset/images/culture1.webp" alt="Culture" width="100%">
+                                        </p>                        
+                                        <p class="culture-font">
+                                            <a href="#">I'm Locked Down in Italy Playing Music—But I'm More Worried About America</a>
+                                        </p>
+                                        <p class="cult-summary">Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+                                    </div>
+
+                                    <div class="culture-img">
+                                        <p>
+                                            <img src="asset/images/culture2.webp" alt="Culture" width="100%">
+                                        </p>
+                                        <p class="culture-font">
+                                            <a href="#">Social Distancing Around the World in Photos</a>
+                                        </p>
+                                        <p class="cult-summary">From Rome's desolate Spanish Steps to New York's deserted Times Square, take a look at some of the world's busiest landmarks that are all now but eerily empty.</p>
+                                    </div>
+
+                                    <div class="culture-img">
+                                        <p>
+                                            <img src="asset/images/culture3.webp" alt="Culture" width="100%">
+                                        </p>
+                                        <p class="culture-font">
+                                            <a href="#">Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now</a>
+                                        </p>
+                                        <p class="cult-summary">Travelers can still explore the world while binge-watching these travel TV shows in home isolation. Thanks to streaming services, we can virtually send ourselves to nearly any and every part of the planet in just a few clicks.</p>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="d-none d-lg-block d-md-block mt-4">
+                                <h5 class="hdr-txt border-bottom"> More Stories </h5>
+                                <div class="d-flex w-100 justify-content-around mb-3">
+                                    <div>
+                                        <img src="asset/images/more-story1.webp" alt="More stories Icon">
+                                    </div>
+                                    <div class="pl-3">
+                                        <h6 class="debate-feature news-col">
+                                            <a href="#">Dr. Fauci Says New York's COVID-19 Response Is 'Extraordinarily Powerful'</a>
+                                        </h6>
+                                        <p class="card-text">The head of the National Institute of Allergy and Infectious Diseases told Vanity Fair that he had a good working relationship with President Donald Trump.</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div>
+                                        <img src="asset/images/more-story2.webp" alt="More stories Icon">
+                                    </div>
+                                    <div class="pl-3">
+                                        <h6 class="debate-feature news-col">
+                                            <a href="#">Dr. Fauci Says New York's COVID-19 Response Is 'Extraordinarily Powerful'</a>
+                                        </h6>
+                                        <p class="card-text">The head of the National Institute of Allergy and Infectious Diseases told Vanity Fair that he had a good working relationship with President Donald Trump.</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div>
+                                        <img src="asset/images/more-story3.webp" alt="More stories Icon">
+                                    </div>
+                                    <div class="pl-3">
+                                        <h6 class="debate-feature news-col">
+                                            <a href="#">Dr. Fauci Says New York's COVID-19 Response Is 'Extraordinarily Powerful'</a>
+                                        </h6>
+                                        <p class="card-text">The head of the National Institute of Allergy and Infectious Diseases told Vanity Fair that he had a good working relationship with President Donald Trump.</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div>
+                                        <img src="asset/images/more-story4.webp" alt="More stories Icon">
+                                    </div>
+                                    <div class="pl-3">
+                                        <h6 class="debate-feature news-col">
+                                            <a href="#">EU Flags Concern Over Faulty China Coronavirus Gear, State Media Responds</a>
+                                        </h6>
+                                        <p class="card-text">European governments have reported tens of thousands of inadequate protective masks and testing kits ordered from China.</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div>
+                                        <img src="asset/images/more-story5.webp" alt="More stories Icon">
+                                    </div>
+                                    <div class="pl-3">
+                                        <h6 class="debate-feature news-col">
+                                            <a href="#">Italy Could Be Free of New COVID-19 Cases by May 16, Experts Predict</a>
+                                        </h6>
+                                        <p class="card-text">"We are going in the right direction and we must not change our strategy in the least. The return to normality will be a gradual process," said top Italian health official Franco</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="asset/images/more-story6.webp" alt="More stories Icon">
+                                    </div>
+                                    <div class="pl-3">
+                                        <h6 class="debate-feature news-col">
+                                            <a href="#">China State Media Says Coronavirus Death Toll Cover-Up Theory Is 'Nonsense'</a>
+                                        </h6>
+                                        <p class="card-text">China appears to have almost stopped the spread of CVID-19 within its borders, but Western leaders have accused Beijing of hiding the true scale of the outbreak.</p>
+                                    </div>
+                                </div>
+                            </div>
+ 
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-12 order-sm-2 order-md-1">
+                            <h5 class="hdr-txt"> Featured Stories </h5>
+                            <div class="card-box mb-2">
+                                <img src="asset/images/img1.webp" alt="Image Cards"  width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">State-by-State Coronavirus Projections Show How COVID-19 Could Impact U.S.</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        Modeling from the UW Medicine Institute for Health Metrics and Evaluation suggests U.S. cases of COVID-19 could peak around April 15, 2020.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card-box mb-2">
+                                <img src="asset/images/f-story1.webp" alt="Image Cards"  width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">Esper Says He Hasn't Read Captain's Plea From Coronavirus-Stricken Carrier</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        "We are not at war. Sailors do not need to die. If we do not act now, we are failing to properly take care of our most trusted asset—our Sailors," U.S. Navy Captain Brett Crozier wrote.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card-box mb-2">
+                                <img src="asset/images/f-story2.webp" alt="Image Cards"  width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">Over 6,000 People Still on Board Carnival Cruise Ships During Pandemic</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        As Carnival seeks $6 billion in funding to help with financial fallout caused by the COVID-19 pandemic, SEC filings on Monday showed that over 6,000 people were still sailing on ships owned by the company.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card-box">
+                                <img src="asset/images/f-story3.webp" alt="Image Cards"  width="100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="#">Trump Says U.S. 'Holding Back' 10K Ventilators for 'Surge' in Coronavirus</a>
+                                    </h5>
+                                    <p class="card-text">
+                                        "We have to hold them back because the surge is coming and it's coming pretty strong," Trump said Tuesday.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-12 col-12 order-md-3 pl-lg-4">    
+                    <div class="row no-gutters">
+                        <div>
+                            <h5 class="hdr-txt">Opinion</h5>
+                            <div class="d-flex border-bottom">
+                                <div>
+                                    <img src="asset/images/icon1.webp" alt="Image Icon">
+                                </div>
+                                <div class="pl-2">
+                                    <span class="txt-font">
+                                        <a href="#">Our Right to Vote in November Is in Real Danger—But It Can Still Be Saved</a>
+                                    </span>
+                                    <p class="txt-font-name mt-1">BY DOUG GORDON</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom pt-2">
+                                <div>
+                                    <img src="asset/images/icon2.webp" alt="Image Icon">
+                                </div>
+                                <div class="pl-2">
+                                    <span class="txt-font">
+                                        <a href="#">Boeing, Bernie, Stock Market Porn...and Neil Young!</a>
+                                    </span>
+                                    <p class="txt-font-name mt-1">BY HANK GILMAN</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom pt-2">
+                                <div>
+                                    <img src="asset/images/icon3.webp" alt="Image Icon">
+                                </div>
+                                <div class="pl-2">
+                                    <span class="txt-font">
+                                        <a href="#">Boeing, Bernie, Stock Market Porn...and Neil Young!</a>
+                                    </span>
+                                    <p class="txt-font-name mt-1">BY HANK GILMAN</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex pt-2">
+                                <div>
+                                    <img src="asset/images/icon4.webp" alt="Image Icon">
+                                </div>
+
+                                <div class="pl-2">
+                                    <span class="txt-font">
+                                        <a href="#">COVID-19 Offers a Reminder: Now is the Prudent Time to Settle Your Affairs</a>
+                                    </span>
+                                    <p class="txt-font-name mt-1">BY HANK GILMAN</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row no-gutters">
+                        <div class="d-none d-md-block">
+                            <h5 class="hdr-txt mt-4 mb-0"> The Debate </h5>
+                            <div class="d-flex border-top-3 border-danger bdr-top">
+                                <div>
+                                    <img src="asset/images/more-story6.webp" alt="More stories Icon">
+                                </div>
+                                <h6 class="pl-3 align-self-center debate-feature">
+                                    <a href="#"> Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency </a>
+                                </h6>
+                            </div>
+
+                            <div class="d-flex border-left justify-content-between border-left">
+                                <div class="pt-4" style="width: 80%">
+                                    <div class="w-100 border-bottom"></div>
+                                    <div class="w-100 border-bottom pt-1"></div>
+                                    <span class="name-by"> BY 
+                                        <strong class="font-weight-bold">PETER ROFF</strong> 
+                                    </span>
+                                </div>
+                                
+                                <div style="width: 20%">
+                                    <img src="asset/images/icon2.webp" class="w-100" alt="More stories Icon" >
+                                </div>
+                            </div>
+
+                            <div class="mx-auto text-center center-btn"> vs 
+                            </div>
+
+                            <div class="d-flex justify-content-between border-top-3 border-primary bdr-top">
+                                <div>
+                                    <img src="asset/images/more-story6.webp" alt="More stories Icon">
+                                </div>
+                                <h6 class="pl-3 align-self-center debate-feature">
+                                    <a href="#">Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency</a>
+                                </h6>
+                            </div>
+
+                            <div class="d-flex border-left justify-content-between border-left">
+                                <div class="pt-4" style="width: 80%">
+                                    <div class="w-100 border-bottom"></div>
+                                    <div class="w-100 border-bottom pt-1"></div>
+                                    <span class="name-by"> BY 
+                                        <strong class="font-weight-bold">PETER ROFF</strong> 
+                                    </span>
+                                </div>
+                                
+                                <div style="width: 20%">
+                                    <img src="asset/images/icon2.webp" class="w-100" alt="More stories Icon" >
+                                </div>
+                            </div>
+
+                        </div>
+    
+                    </div>
+
+                    <div class="row no-gutters">
+                        <article class="d-none d-md-block">
+                            <h5 class="hdr-txt">Latest News</h5>
+
+                            <div class="d-flex border-bottom pb-2">
+                                <div>
+                                    <img src="asset/images/lnews1.webp" alt="Latest News Icon" >
+                                </div>
+                                <h6 class="pl-3 align-self-center debate-feature news-col">
+                                   <a href="#"> Man Fined After Driving 100 Miles to Visit Girlfriend During Lockdown</a>
+                                </h6>
+                            </div>
+
+                            <div class="d-flex border-bottom pt-2 pb-2">
+                                <div>
+                                    <img src="asset/images/lnews2.webp" alt="Latest News Icon">
+                                </div>
+                                <h6 class="pl-3 align-self-center debate-feature news-col">
+                                    <a href="#">New York Business Fined for Allegedly Price Gouging Out of Date Face Masks</a>
+                                </h6>
+                            </div>
+
+                            <div class="d-flex border-bottom pt-2 pb-2">
+                                <div>
+                                    <img src="asset/images/lnews3.webp" alt="Latest News Icon">
+                                </div>
+                                <h6 class="pl-3 align-self-center debate-feature news-col">
+                                    <a href="#"> Nunes Says California School Closures Are 'Way Overkill' Amid Pandemic</a>
+                                </h6>
+                            </div>
+
+                            <div class="d-flex border-bottom pt-2 pb-2">
+                                <div>
+                                    <img src="asset/images/lnews1.webp" alt="Latest News Icon">
+                                </div>
+                                <h6 class="pl-3 align-self-center debate-feature news-col">
+                                    <a href="#"> How to Cut Men's Hair at Home During the Coronavirus Outbreak</a>
+                                </h6>
+                            </div>
+
+                            <div class="d-flex pt-2">
+                                <div>
+                                    <img src="asset/images/lnews4.webp" alt="Latest News Icon">
+                                </div>
+                                <h6 class="pl-3 align-self-center debate-feature news-col">
+                                    <a href="#">Mega Millions Results, Numbers for 3/31/20: Did Anyone Win the $113 Million</a>
+                                </h6>
+                            </div>
+                        </article>
+                    </div>
+                    
+                </div>
+                               
+            </div>
+
+            <div class="col-sm-12 d-lg-none d-md-none">
+                <h5 class="hdr-txt"> The Debate </h5>
+                <div class="d-flex justify-content-between border-top-3 border-danger bdr-top">
+                    <div>
+                        <img src="asset/images/more-story6.webp" alt="More stories Icon">
+                    </div>
+                    <h6 class="pl-3">
+                        Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency
+                    </h6>
+                </div>
+
+                <div class="d-flex border-left justify-content-between border-left">
+                    <div class="pt-4" style="width: 80%">
+                        <div class="w-100 border-bottom"></div>
+                        <div class="w-100 border-bottom pt-1"></div>
+                        <span> BY <strong>PETER ROFF</strong> </span>
+                    </div>
+                    
+                    <div style="width: 20%">
+                        <img src="asset/images/icon2.webp" class="w-100" alt="More stories Icon" >
+                    </div>
+                </div>
+
+                <div class="mx-auto text-center center-btn"> vs 
+                </div>
+
+                <div class="d-flex justify-content-between border-top-3 border-primary bdr-top">
+                    <div>
+                        <img src="asset/images/more-story6.webp" alt="More stories Icon">
+                    </div>
+                    <h6 class="pl-3">
+                        Biden's Running Mate Needs to Win Him an Entire State, Not Just a Constituency
+                    </h6>
+                </div>
+
+                <div class="d-flex border-left justify-content-between border-left">
+                    <div class="pt-4" style="width: 80%">
+                        <div class="w-100 border-bottom"></div>
+                        <div class="w-100 border-bottom pt-1"></div>
+                        <span> BY <strong>PETER ROFF</strong> </span>
+                    </div>
+                    
+                    <div style="width: 20%">
+                        <img src="asset/images/icon2.webp" class="w-100" alt="More stories Icon" >
+                    </div>
+                </div>
+            </div>
+
+            <article class="col-sm-12 d-lg-none d-md-none">
+                <h5 class="hdr-txt border-bottom"> More Stories </h5>
+                <div class="d-flex w-100 justify-content-around mb-3">
+                    <div>
+                        <img src="asset/images/more-story1.webp" alt="More stories Icon">
+                    </div>
+                    <div class="pl-3">
+                        <h6 class="debate-feature news-col">
+                            <a href="#">Dr. Fauci Says New York's COVID-19 Response Is 'Extraordinarily Powerful'</a>
+                        </h6>
+                        <p class="card-text">The head of the National Institute of Allergy and Infectious Diseases told Vanity Fair that he had a good working relationship with President Donald Trump.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between mb-3">
+                    <div>
+                        <img src="asset/images/more-story2.webp" alt="More stories Icon">
+                    </div>
+                    <div class="pl-3">
+                        <h6 class="debate-feature news-col">
+                            <a href="#">Dr. Fauci Says New York's COVID-19 Response Is 'Extraordinarily Powerful'</a>
+                        </h6>
+                        <p class="card-text">The head of the National Institute of Allergy and Infectious Diseases told Vanity Fair that he had a good working relationship with President Donald Trump.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between mb-3">
+                    <div>
+                        <img src="asset/images/more-story3.webp" alt="More stories Icon">
+                    </div>
+                    <div class="pl-3">
+                        <h6 class="debate-feature news-col">
+                            <a href="#">Dr. Fauci Says New York's COVID-19 Response Is 'Extraordinarily Powerful'</a>
+                        </h6>
+                        <p class="card-text">The head of the National Institute of Allergy and Infectious Diseases told Vanity Fair that he had a good working relationship with President Donald Trump.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between mb-3">
+                    <div>
+                        <img src="asset/images/more-story4.webp" alt="More stories Icon">
+                    </div>
+                    <div class="pl-3">
+                        <h6 class="debate-feature news-col">
+                            <a href="#">EU Flags Concern Over Faulty China Coronavirus Gear, State Media Responds</a>
+                        </h6>
+                        <p class="card-text">European governments have reported tens of thousands of inadequate protective masks and testing kits ordered from China.</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between mb-3">
+                    <div>
+                        <img src="asset/images/more-story5.webp" alt="More stories Icon">
+                    </div>
+                    <div class="pl-3">
+                        <h6 class="debate-feature news-col">
+                            <a href="#">Italy Could Be Free of New COVID-19 Cases by May 16, Experts Predict</a>
+                        </h6>
+                        <p class="card-text">"We are going in the right direction and we must not change our strategy in the least. The return to normality will be a gradual process," said top Italian health official Franco</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <img src="asset/images/more-story6.webp" alt="More stories Icon">
+                    </div>
+                    <div class="pl-3">
+                        <h6 class="debate-feature news-col">
+                            <a href="#">China State Media Says Coronavirus Death Toll Cover-Up Theory Is 'Nonsense'</a>
+                        </h6>
+                        <p class="card-text">China appears to have almost stopped the spread of CVID-19 within its borders, but Western leaders have accused Beijing of hiding the true scale of the outbreak.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-12 d-lg-none d-md-none mt-3">
+                <h5 class="hdr-txt"> Culture & Travel </h5>
+                <div>
+                    <div class="culture-img w-100 d-flex flex-column mb-2">
+                        <p>
+                            <img src="asset/images/culture1.webp" alt="Culture" width="100%">
+                        </p>                        
+                        <p class="culture-font">
+                            <a href="#">I'm Locked Down in Italy Playing Music—But I'm More Worried About America</a>
+                        </p>
+                        <p class="cult-summary">Two American musicians play a nightly concert on their balcony while quarantined in their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong message for Americans, too.</p>
+                    </div>
+
+                    <div class="culture-img w-100 d-flex flex-column mb-2">
+                        <p>
+                            <img src="asset/images/culture2.webp" alt="Culture" width="100%">
+                        </p>
+                        <p class="culture-font">
+                            <a href="#">Social Distancing Around the World in Photos</a>
+                        </p>
+                        <p class="cult-summary">From Rome's desolate Spanish Steps to New York's deserted Times Square, take a look at some of the world's busiest landmarks that are all now but eerily empty.</p>
+                    </div>
+
+                    <div class="culture-img w-100 d-flex flex-column mb-2">
+                        <p>
+                            <img src="asset/images/culture3.webp" alt="Culture" width="100%">
+                        </p>
+                        <p class="culture-font">
+                            <a href="#">Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now</a>
+                        </p>
+                        <p class="cult-summary">Travelers can still explore the world while binge-watching these travel TV shows in home isolation. Thanks to streaming services, we can virtually send ourselves to nearly any and every part of the planet in just a few clicks.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-12 d-lg-none d-md-none">
+                <h5 class="hdr-txt">Latest News</h5>
+
+                <div class="d-flex border-bottom pb-2">
+                    <div>
+                        <img src="asset/images/lnews1.webp" alt="Latest News Icon" >
+                    </div>
+                    <h6 class="pl-3 align-self-center debate-feature news-col">
+                       <a href="#"> Man Fined After Driving 100 Miles to Visit Girlfriend During Lockdown</a>
+                    </h6>
+                </div>
+
+                <div class="d-flex border-bottom pt-2 pb-2">
+                    <div>
+                        <img src="asset/images/lnews2.webp" alt="Latest News Icon">
+                    </div>
+                    <h6 class="pl-3 align-self-center debate-feature news-col">
+                        <a href="#">New York Business Fined for Allegedly Price Gouging Out of Date Face Masks</a>
+                    </h6>
+                </div>
+
+                <div class="d-flex border-bottom pt-2 pb-2">
+                    <div>
+                        <img src="asset/images/lnews3.webp" alt="Latest News Icon">
+                    </div>
+                    <h6 class="pl-3 align-self-center debate-feature news-col">
+                        <a href="#"> Nunes Says California School Closures Are 'Way Overkill' Amid Pandemic</a>
+                    </h6>
+                </div>
+
+                <div class="d-flex border-bottom pt-2 pb-2">
+                    <div>
+                        <img src="asset/images/lnews1.webp" alt="Latest News Icon">
+                    </div>
+                    <h6 class="pl-3 align-self-center debate-feature news-col">
+                        <a href="#"> How to Cut Men's Hair at Home During the Coronavirus Outbreak</a>
+                    </h6>
+                </div>
+
+                <div class="d-flex pt-2">
+                    <div>
+                        <img src="asset/images/lnews4.webp" alt="Latest News Icon">
+                    </div>
+                    <h6 class="pl-3 align-self-center debate-feature news-col">
+                        <a href="#">Mega Millions Results, Numbers for 3/31/20: Did Anyone Win the $113 Million</a>
+                    </h6>
+                </div>
+            </article>
+            
         </section>
     </main>
 
