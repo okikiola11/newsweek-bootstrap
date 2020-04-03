@@ -2,13 +2,13 @@
 This project uses twitter’s Bootstrap framework to build a site.
 
 
-![screenshot]()
+![screenshot](asset/images/screenshot.PNG)
 
-This project shows the format of designing a responsive webpage using HTML semantics element and CSS media queries of different breakpoints, for smaller devices, medium devices and large screen devices. These various breakpoints makes the webpage responsive across various platforms.
+This project shows the format of designing a responsive webpage using bootstrap 4 classes which has in-built media queries with different breakpoints, for smaller devices, medium devices and large screen devices, this project is set up with the latest design and development standards using BootstrapCDN, provided for free by the folks at StackPath.  Bootstrap is developed mobile first, it employs a handful of important global styles and settings which makes the page responsive when the appropriate classes are used. 
 
 ## Built With
 
-- html, css
+- HTML, Bootstrap 4, CSS
 - vscode
 
 ## Live Demo
