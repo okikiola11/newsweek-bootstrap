@@ -32,7 +32,6 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 - Okikiola Apelehin
-- Daniel Duran 
 
 👤 **Author1**
 
