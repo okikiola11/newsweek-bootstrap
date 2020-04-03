@@ -28,6 +28,11 @@
   color: #fff;
 }
 
+.no-padding {
+  margin: 0;
+  padding: 0;
+}
+
 .header-bottom {
   content: "";
   width: 70px;
@@ -166,6 +171,53 @@
   transition: opacity 500ms ease-in-out 100ms;
 }
 
+.img-magazine1 {
+  background-image: url(images/in-mag.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+.in-img-txt {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 5px 0;
+}
+
+.in-mag-bg {
+  background-image: url(images/mag2.webp);
+}
+
+.in-mag-bg1 {
+  background-image: url(images/mag3.webp);
+}
+
+.in-mag-bg2 {
+  background-image: url(images/mag4.webp);
+}
+
+.in-mag-bg3 {
+  background-image: url(images/mag5.webp);
+}
+
+.in-mag-bg4 {
+  background-image: url(images/mag1.webp);
+}
+
+.in-mag-bg,
+.in-mag-bg1,
+.in-mag-bg2,
+.in-mag-bg3,
+.in-mag-bg4 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 270px;
+  width: 100%;
+}
+
 .txt-magazine {
   color: #f72210;
   margin: 10px 0;
@@ -196,6 +248,18 @@
   font: 15px "Roboto Condensed", sans-serif;
 }
 
+.debate-name-wid {
+  width: 85%;
+}
+
+.debate-img-wid {
+  width: 15%;
+}
+
+.debate-img {
+  width: 100%;
+}
+
 .nav-item span,
 .footer-links:hover {
   color: #000 !important;
@@ -203,6 +267,13 @@
 
 .card-title a:hover {
   text-decoration-color: #f72210;
+}
+
+.in-img-txt:hover {
+  color: #000;
+  background-color: rgb(202, 199, 199);
+  transition: background-color 0.4s;
+  text-decoration: none;
 }
 
 .txt-font a:hover,
@@ -220,4 +291,52 @@
 
 .debate-feature a:hover {
   text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .debate-name-wid {
+    width: 90%;
+  }
+
+  .debate-img-wid {
+    width: 10%;
+  }
+
+  .debate-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .debate-name-wid {
+    width: 92%;
+  }
+
+  .debate-img-wid {
+    width: 8%;
+  }
+
+  .debate-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .debate-name-wid {
+    width: 80%;
+  }
+
+  .debate-img-wid {
+    width: 20%;
+  }
+
+  .debate-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .ff-link {
+    padding-left: 27px !important;
+  }
 }
