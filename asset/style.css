@@ -1,0 +1,391 @@
+.hdr-top-logo {
+  fill: #fff;
+}
+
+.bg-nav {
+  background-color: #f72210;
+  color: #fff;
+  padding: 5px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-nav {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+
+.nav-link {
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  transition: 0.4s;
+  color: #f72210 !important;
+}
+
+.signin-bx a {
+  color: #fff;
+}
+
+.no-padding {
+  margin: 0;
+  padding: 0;
+}
+
+.header-bottom {
+  content: "";
+  width: 70px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.cc-img {
+  width: 100%;
+}
+
+.subscribe-btn,
+.state-color a {
+  color: #f72210;
+  font-weight: 700;
+}
+
+.subscribe-btn {
+  width: 120px;
+  height: 30px;
+}
+
+.bg-color {
+  background-color: #fff;
+}
+
+.search {
+  color: rgb(189, 184, 184);
+}
+
+.culture-img {
+  width: 30%;
+}
+
+.card-body {
+  padding: 10px 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.card-title a {
+  color: #000;
+  font: bold 20px/40px "Roboto Condensed", sans-serif;
+  line-height: 1.4;
+}
+
+.card-text {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 15px;
+}
+
+.center-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/40px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 14px auto 18px;
+}
+
+.hdr-txt {
+  color: rgba(3, 3, 3, 0.4);
+  text-transform: uppercase;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  padding-bottom: 11px;
+}
+
+.hdr-img {
+  width: 37px;
+}
+
+.display {
+  display: none;
+}
+
+.ft-img {
+  position: relative;
+}
+
+.ft-img-news {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: #fff;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+}
+
+.txt-font a {
+  color: #000;
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+}
+
+.txt-font-name {
+  color: #555;
+  font: bold 15px/19px "Roboto Condensed", sans-serif;
+}
+
+.name-by strong {
+  font: bold 17px/19px "Roboto Condensed", sans-serif;
+}
+
+.culture-font a {
+  color: #272727;
+  font: 20px/22px "Lora", serif;
+  margin-bottom: 10px;
+}
+
+.cult-summary {
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+  margin-bottom: 10px;
+}
+
+.debate-feature {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+}
+
+.state-color a {
+  font: bold 22px/40px "Roboto Condensed", sans-serif;
+}
+
+.debate-feature a {
+  color: #000;
+}
+
+.bdr-top {
+  border-top: 3px solid;
+}
+
+.img-magazine {
+  width: 100%;
+  transition: opacity 500ms ease-in-out 100ms;
+}
+
+.img-magazine1 {
+  background-image: url(images/in-mag.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
+}
+
+.in-img-txt {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 5px 0;
+}
+
+.in-mag-bg {
+  background-image: url(images/mag2.webp);
+}
+
+.in-mag-bg1 {
+  background-image: url(images/mag3.webp);
+}
+
+.in-mag-bg2 {
+  background-image: url(images/mag4.webp);
+}
+
+.in-mag-bg3 {
+  background-image: url(images/mag5.webp);
+}
+
+.in-mag-bg4 {
+  background-image: url(images/mag1.webp);
+}
+
+.in-mag-bg,
+.in-mag-bg1,
+.in-mag-bg2,
+.in-mag-bg3,
+.in-mag-bg4 {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 270px;
+  width: 100%;
+}
+
+.txt-magazine {
+  color: #f72210;
+  margin: 10px 0;
+  font: bold 16px/21px "Roboto Condensed", sans-serif;
+}
+
+.txt-magazine strong {
+  background-color: #f72210;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 3px 5px;
+}
+
+.logo-col {
+  fill: #f72210;
+}
+
+.footer-link {
+  margin: 0;
+  padding: 0 5px;
+  font: 15px "Roboto Condensed", sans-serif;
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0 10px;
+  color: #333 !important;
+  font: 15px "Roboto Condensed", sans-serif;
+}
+
+.debate-name-wid {
+  width: 85%;
+}
+
+.debate-img-wid {
+  width: 15%;
+}
+
+.debate-img {
+  width: 100%;
+}
+
+.footer-links:hover {
+  color: #000 !important;
+}
+
+.card-title a:hover {
+  text-decoration-color: #f72210;
+}
+
+.in-img-txt:hover {
+  color: #000;
+  background-color: rgb(202, 199, 199);
+  transition: background-color 0.4s;
+  text-decoration: none;
+}
+
+.txt-font a:hover,
+.news-col a:hover,
+.state-color a:hover {
+  color: #f72210;
+  transition: color 0.4s;
+  text-decoration: none;
+}
+
+.signin-bx a:hover,
+.culture-font a:hover {
+  text-decoration: none;
+}
+
+.debate-feature a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .debate-name-wid {
+    width: 90%;
+  }
+
+  .debate-img-wid {
+    width: 10%;
+  }
+
+  .debate-img {
+    width: 100%;
+  }
+
+  .img-magazine1 {
+    background-size: 100% 100%;
+    height: 650px;
+    width: 100%;
+  }
+
+  .in-mag-bg,
+  .in-mag-bg1,
+  .in-mag-bg2,
+  .in-mag-bg3,
+  .in-mag-bg4 {
+    height: 450px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .debate-name-wid {
+    width: 92%;
+  }
+
+  .debate-img-wid {
+    width: 8%;
+  }
+
+  .debate-img {
+    width: 100%;
+  }
+
+  .ff-link {
+    padding-left: 10px !important;
+  }
+
+  .img-magazine1 {
+    background-size: 100% 100%;
+    height: 300px;
+    width: 100%;
+  }
+
+  .in-mag-bg,
+  .in-mag-bg1,
+  .in-mag-bg2,
+  .in-mag-bg3,
+  .in-mag-bg4 {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .debate-name-wid {
+    width: 80%;
+  }
+
+  .debate-img-wid {
+    width: 20%;
+  }
+
+  .debate-img {
+    width: 100%;
+  }
+
+  .img-magazine1 {
+    height: 350px;
+    width: 100%;
+  }
+
+  .in-mag-bg,
+  .in-mag-bg1,
+  .in-mag-bg2,
+  .in-mag-bg3,
+  .in-mag-bg4 {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .ff-link {
+    padding-left: 27px !important;
+  }
+}
