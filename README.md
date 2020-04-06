@@ -13,7 +13,7 @@ This project shows the format of designing a responsive webpage using bootstrap 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/okikiola11/newsweek-bootstrap/56063e3e447925acc7defb5a7766134b0ec8aeaa/index.html)
+[Live Demo Link](https://rawcdn.githack.com/okikiola11/newsweek-bootstrap/21d625b71bbdd661fb5a1bece51f0f4b75aa963a/index.html)
 
 
 ## Getting Started
