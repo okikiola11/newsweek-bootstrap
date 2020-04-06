@@ -304,6 +304,20 @@
   .debate-img {
     width: 100%;
   }
+  .img-magazine1 {
+    background-size: 100% 100%;
+    height: 650px;
+    width: 100%;
+  }
+
+  .in-mag-bg,
+  .in-mag-bg1,
+  .in-mag-bg2,
+  .in-mag-bg3,
+  .in-mag-bg4 {
+    height: 450px;
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
